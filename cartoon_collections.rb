@@ -9,7 +9,7 @@ def roll_call_dwarves(dwarf_list)
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.map(&c) { |i| 
+  planeteer_calls.map(&capitalise) { |i| 
     
 end
 
