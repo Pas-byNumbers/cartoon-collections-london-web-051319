@@ -10,7 +10,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   new_calls = []
-  planeteer_calls.collect 
+  planeteer_calls.map(&capitalize)
 end
 
 def long_planeteer_calls# code an argument here
