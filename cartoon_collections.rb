@@ -10,7 +10,8 @@ end
 
 def summon_captain_planet(planeteer_calls)
   
-  planeteer_calls.map(&:capitalize) { |i| i + "!" }
+  planeteer_calls.map(&:capitalize) |i|
+  
 
 end
 
