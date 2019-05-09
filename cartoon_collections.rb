@@ -3,7 +3,7 @@ def roll_call_dwarves(dwarf_list)
   dwarf_list.collect do |i|
     n = 1
     puts "#{n}. #{i}"
-    n++
+    n += 1
   end
 end
 
