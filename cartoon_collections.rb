@@ -1,7 +1,7 @@
 def roll_call_dwarves(dwarf_list)
-  # Your code here
+  # Your code heren = 1
   dwarf_list.collect do |i|
-    n = 1
+    
     puts "#{n}. #{i}"
     n += 1
   end
