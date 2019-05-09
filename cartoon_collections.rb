@@ -9,7 +9,7 @@ def roll_call_dwarves(dwarf_list)
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.collect do |element|
+  planeteer_calls.map { |i| 
     
 end
 
